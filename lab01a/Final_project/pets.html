@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Available Pets - Animal Shelter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="icons/logo.png" alt="Animal Shelter Logo">
+            </a>            <h1>Animal Shelter</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pets.html" class="active">Pets for Adoption</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <form action="/search" method="get" class="search-form">
+            <input type="text" name="query" placeholder="Search..." aria-label="Search through site content">
+            <button type="submit">Search</button>
+        </form>
+    </header>
+
+    <main>
+        <!-- Cats Section -->
+        <section>
+            <h2>Cats</h2>
+            <div class="pet-container">
+                <div class="pet-card">
+                    <img src="icons/animals/cat1.jpg" alt="Fluffy">
+                    <h3>Fluffy</h3>
+                    <p>Fluffy is a 2-year-old cat. Very playful and gets along with others.</p>
+                </div>
+                <div class="pet-card">
+                    <img src="icons/animals/cat2.jpg" alt="Snow">
+                    <h3>Snow</h3>
+                    <p>Snow is a 4-year-old cat. Loves cuddling and is calm.</p>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Dogs Section -->
+        <section>
+            <h2>Dogs</h2>
+            <div class="pet-container">
+                <div class="pet-card">
+                    <img src="icons/animals/dog1.jpg" alt="Buddy">
+                    <h3>Buddy</h3>
+                    <p>Buddy is a 3-year-old dog. He loves children and is very obedient.</p>
+                </div>
+                <div class="pet-card">
+                    <img src="icons/animals/dog2.jpg" alt="Rex">
+                    <h3>Rex</h3>
+                    <p>Rex is a 6-year-old dog. Energetic and friendly.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+
+    <footer>
+        <div class="social-media">
+            <a href="https://www.facebook.com"><img src="icons/facebook.png" alt="Facebook"></a>
+            <a href="https://www.twitter.com/"><img src="icons/twitter.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com/"><img src="icons/instagram.png" alt="Instagram"></a>
+        </div>
+        <p>&copy; 2023 Animal Shelter. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

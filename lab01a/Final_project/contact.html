@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Animal Shelter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="icons/logo.png" alt="Animal Shelter Logo">
+            </a>
+            <h1>Animal Shelter</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pets.html">Pets for Adoption</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+        <form action="/search" method="get" class="search-form">
+            <input type="text" name="query" placeholder="Search..." aria-label="Search through site content">
+            <button type="submit">Search</button>
+        </form>
+    </header>
+    <main>
+        <section>
+            <h2>Contact Us</h2>
+            <p>We would love to hear from you! Whether you have questions about our pets, donations, volunteering, or
+                any other inquiries, feel free to reach out.</p>
+        </section>
+
+        <section>
+            <h2>Get in Touch</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="cta-button">Send Message</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-media">
+            <a href="https://www.facebook.com"><img src="icons/facebook.png" alt="Facebook"></a>
+            <a href="https://www.twitter.com/"><img src="icons/twitter.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com/"><img src="icons/instagram.png" alt="Instagram"></a>
+        </div>
+        <p>&copy; 2023 Animal Shelter. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Shelter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="icons/logo.png" alt="Animal Shelter Logo">
+            </a>
+            <h1>Animal Shelter</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="pets.html">Pets for Adoption</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <form action="/search" method="get" class="search-form">
+            <input type="text" name="query" placeholder="Search..." aria-label="Search through site content">
+            <button type="submit">Search</button>
+        </form>
+    </header>
+    <main>
+        <section>
+            <img src="icons/animals/pets.jpg" alt="Adorable pet waiting for adoption" class="featured-pet">
+            <h2>Welcome to Animal Shelter</h2>
+            <p>At the heart of our city, Animal Shelter has been the leading advocate for animal welfare. We are
+                dedicated to rescuing animals left homeless due to overpopulation, abuse, and neglect. Our goal is to
+                introduce them to a loving family like yours!</p>
+            <p>Take a moment to view our adorable pets available for adoption. Let's find them a forever home together.
+            </p>
+            <a href="pets.html" class="cta-button">See Available Pets</a>
+        </section>
+        <section>
+            <h2>Hours & Location</h2>
+            <p><strong>Operating Hours:</strong> Mon-Fri: 10 AM - 6 PM | Sat-Sun: 11 AM - 4 PM</p>
+            <p><strong>Address:</strong> 123 Pet Street, Furryville, FS 12345</p>
+            <p>We welcome visitors! Stop by to see our wonderful pets or to donate goods.</p>
+        </section>
+    </main>
+    <footer>
+        <div class="social-media">
+            <a href="https://www.facebook.com"><img src="icons/facebook.png" alt="Facebook"></a>
+            <a href="https://www.twitter.com/"><img src="icons/twitter.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com/"><img src="icons/instagram.png" alt="Instagram"></a>
+        </div>
+        <p>&copy; 2023 Animal Shelter. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
